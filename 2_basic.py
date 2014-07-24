@@ -10,6 +10,10 @@ def main():
     end()
 
 def work():
+    
+    # To print Empty lines
+    print()
+    
     print("Lets assign values to a, b")
     a = 1
     print('a=1')
