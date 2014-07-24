@@ -26,7 +26,7 @@ def work():
 
     m = a
     print('m=a')
-# In print, ',' should be written between two objects.
+    # In print, ',' should be written between two objects.
     print("m is ", type(m), id(m), m, "It works")
 
     # To find, whether the values are equal
