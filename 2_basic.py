@@ -17,10 +17,13 @@ def work():
     print("Lets assign values to a, b")
     a = 1
     print('a=1')
+    
+    # , in print add spaces in output
     print("a is ", type(a), id(a), a)
+    print("a is ",type(a),id(a),a) # See the output of above two values
 
     b = 1
-    print('b=1')
+    print('\nb=1')
     print("b is ", type(b), id(b), b)
     print ("Id of a and b are same\n")
 
