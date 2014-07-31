@@ -41,11 +41,7 @@ def learn_string():
     print("s = \"This is an example\"")
     print("s is ", s)
     
-    # The variable scope is local Uncomment the following to run
-    a = 10
-    s = "Value of a is {}".format(a) # format() - to format the string
-    print("\ns = \"Value of a is {}\".format(a)")
-    print(s)
+    
 
 def learn_tuple():
     print('\nTuple Datatypes (Immutable)')
@@ -55,7 +51,7 @@ def learn_tuple():
     print(x)
     # Tuple is immutable, i.e Cant change value in tuple
     # But it is faster than list
-    #x.append(4)
+    x.append(4)
     print("x.append(4)")
     print(x)
     

@@ -6,10 +6,11 @@
 # type(a), id(a)
 
 def main():
-    work()
+    AllAreObjects()
+    DelAnObject()
     end()
 
-def work():
+def AllAreObjects():
     
     # To print Empty lines
     print()
@@ -33,10 +34,10 @@ def work():
     print("m is ", type(m), id(m), m, "It works")
 
     # To find, whether the values are equal
-    print("a==b:", a==b)
+    print("\na == b: ", a == b, "<Test the Values>")
    
     # To find whether it is a same object
-    print("a is b: ", a is b)
+    print("a is b: ", a is b, "<Test the Object itself>")
 
     a = 2
     print('\nChange a=2')
@@ -44,6 +45,14 @@ def work():
     print("a==b:", a==m)
     print("a is b: ", a is m)
 
+def DelAnObject():
+    """Delete an object using del"""
+    a = 10
+    b , c = (20, 30)
+    print (a)
+    del a # Volunteerly deleting an unused object
+    del b, c # Delete multiple objects at a time
+    print (a)
 
 def end():
     print ("\nEnd of Program~")
