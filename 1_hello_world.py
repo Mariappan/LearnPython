@@ -3,7 +3,7 @@
 print ('This will print')
 
 def main():
-    print ("This is a test program")
+    print ("Hello world")
 
 if __name__ == '__main__':
     main()
