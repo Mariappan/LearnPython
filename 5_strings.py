@@ -15,5 +15,7 @@ def main():
     print ('print ("This" + "is" + "another" + "test");')
     print ("This" + "is" + "another" + "test\n")
 
+    print ("~End")
+
 if __name__ == '__main__':
     main()
